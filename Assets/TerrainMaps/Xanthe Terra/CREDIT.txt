@@ -1,0 +1,5 @@
+Uses a heavily modified version of the heightmap from the Zero-K map "Xanthe Terra (Remake)", by "Forboding Angel":
+http://zero-k.info/Maps/Detail/50324
+
+Which is itself sourced directly from satelite imagery of Xanthe Terra and surrounding areas in the Mars MGS MOLA Elevation Model 463m:
+https://astrogeology.usgs.gov/search/details/Mars/GlobalSurveyor/MOLA/Mars_MGS_MOLA_DEM_mosaic_global_463m/cub

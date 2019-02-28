@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1213552438645218}
+  m_IsPrefabAsset: 1
+--- !u!1 &1213552438645218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4206995938407708}
+  - component: {fileID: 114561878501724132}
+  - component: {fileID: 114680824104405068}
+  - component: {fileID: 114734633236736880}
+  m_Layer: 0
+  m_Name: TerrainSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 104
+  m_IsActive: 1
+--- !u!4 &4206995938407708
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1213552438645218}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114561878501724132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1213552438645218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae808b29c7d2394db4e57f08e7a22e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heightMapTexture: {fileID: 0}
+  diagFactor: 0.25
+  limit: 0.0625
+--- !u!114 &114680824104405068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1213552438645218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b080488628e294092a0b1a04fd41e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalScale: 8
+  cliffHeight: 0.5
+  layering: 0
+  groundMaterial: {fileID: 2100000, guid: 5267559653b2b7446b3e317dc22be7e1, type: 2}
+  wallMateterial: {fileID: 2100000, guid: 73979e119360f6c4696812fbfe8be194, type: 2}
+  mapWidth: 256
+  mapLength: 256
+  blockSize: 32
+--- !u!114 &114734633236736880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1213552438645218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36a349daf694cf40b6d605e462752ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainSystem: {fileID: 114680824104405068}
+  M0000: {fileID: 4300022, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  M000A: {fileID: 4300020, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  M00AB: {fileID: 4300018, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  M00BA: {fileID: 4300026, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  M0A0B: {fileID: 4300016, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  M0AAB: {fileID: 4300014, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  M0BBA: {fileID: 4300024, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  M0ABA: {fileID: 4300008, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  MAAAB: {fileID: 4300012, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  MAABB0: {fileID: 4300006, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  MAABB1: {fileID: 4300004, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  MABAB0: {fileID: 4300010, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  MABAB1: {fileID: 4300002, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  MABAB2: {fileID: 4300002, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
+  MABAB3: {fileID: 4300000, guid: 5b7af06d633752f4cb96a03a81559189, type: 3}
