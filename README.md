@@ -19,29 +19,6 @@ Inspired by the CSG approach, the intent of this project is to achieve similarly
 *An example of dungeon-like terrain with its associated heightmap.
 The heightmap used is shown at full resolution, demonstrating the accuracy of wall and cliff generation.*
 
-# Contents
-
-## Terrain System Sample Project
-
-A Unity project meant as a demonstration of the terrain system.
-
-## Builds
-
-Builds of the sample project are provided for Windows, Linux and Mac:
-
-[Windows Build](https://bitbucket.org/aevns/cliff-terrain-prototype/downloads/terrain-system-build-windows.zip "[Windows Build]")
-
-[Mac Build](https://bitbucket.org/aevns/cliff-terrain-prototype/downloads/terrain-system-build-mac.zip "[Mac Build]")
-
-[Linux Build](https://bitbucket.org/aevns/cliff-terrain-prototype/downloads/terrain-system-build-linux.zip "[Linux Build]")
-
-
-## Unity Package
-
-A unity package containing only the scripts and assets of the prototype system can be found here:
-
-[Unity Package](https://bitbucket.org/aevns/cliff-terrain-prototype/downloads/Terrain%20System.unitypackage "[Unity Package]")
-
 # General Usage
 
 The prefab *TerrainSystem.prefab* should be included in a scene to use the system, and its settings options are as follows:
