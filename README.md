@@ -1,5 +1,7 @@
 # Terrain Generation with Integrated Cliffs
-![example image 0](https://raw.githubusercontent.com/aevns/cliff-terrain-prototype/refs/heads/master/Assets/Settings/application_icon.png)
+
+![example image 0](https://github.com/user-attachments/assets/5aa42aa0-2f22-4e4f-b010-289ff1b04465)
+*An example of some rough terrain with cliffs, with terrain geometry and baked navmesh shown.*
 
 The goal of this project is to create a proof of concept for a terrain generation method that integrates sheer cliffs into heightmap based terrain.
 Smooth cliff faces are generated in an otherwise grid-based terrain system by identifying conditions for each grid space which determine if and how a cliff section of a given type should be included.
@@ -12,11 +14,9 @@ Unfortunately, such a system requires using pre-fabricated features, heavily lim
 Inspired by the CSG approach, the intent of this project is to achieve similarly complex features directly from heightmap data, without the limitations of the CSG approach.
 
 ![example image 1](https://bytebucket.org/snippets/aevns/Ke9rpn/raw/c4be966f0b02cf69326269546c8db17668639972/terrainexample.png "testtitle")
-
 *An example of generated terrain featuring layered cliffs and spiralling slopes.*
 
 ![example image 2](https://bytebucket.org/snippets/aevns/reznX7/raw/f715bb6285bd481d470c92bb65f659f620805030/dungeonexample.png)
-
 *An example of dungeon-like terrain with its associated heightmap.
 The heightmap used is shown at full resolution, demonstrating the accuracy of wall and cliff generation.*
 
