@@ -1,4 +1,5 @@
 # Terrain Generation with Integrated Cliffs
+![example image 0](https://raw.githubusercontent.com/aevns/cliff-terrain-prototype/refs/heads/master/Assets/Settings/application_icon.png)
 
 The goal of this project is to create a proof of concept for a terrain generation method that integrates sheer cliffs into heightmap based terrain.
 Smooth cliff faces are generated in an otherwise grid-based terrain system by identifying conditions for each grid space which determine if and how a cliff section of a given type should be included.
