@@ -3,7 +3,7 @@
 ![example image 0](https://github.com/user-attachments/assets/5aa42aa0-2f22-4e4f-b010-289ff1b04465)
 *An example of some rough terrain with cliffs, with terrain geometry and baked navmesh shown.*
 
-The goal of this project is to create a proof of concept for a terrain generation method that integrates sheer cliffs into heightmap based terrain.
+A unique approach to generating geometry for heightmap terrain with interesting topography, implemented in the Unity (2019) game engine. The goal of this project is to create a proof of concept for a terrain generation method that integrates sheer cliffs into heightmap based terrain.
 Smooth cliff faces are generated in an otherwise grid-based terrain system by identifying conditions for each grid space which determine if and how a cliff section of a given type should be included.
 While current implementation is limited to simple walls, more complex art could be used to created detailed cliffs using the same premise.
 
